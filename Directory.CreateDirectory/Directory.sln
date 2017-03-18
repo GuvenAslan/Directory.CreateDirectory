@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.25914.0
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.CreateDirectory", "Directory.CreateDirectory\Directory.CreateDirectory.csproj", "{7D8D80A4-7F9B-4879-8CD4-0D996E8B5AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.CreateDirectory.Test", "Directory.CreateDirectory.Test\Directory.CreateDirectory.Test.csproj", "{CC3788B8-838F-46E8-B534-728B63CB0C04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D8D80A4-7F9B-4879-8CD4-0D996E8B5AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D8D80A4-7F9B-4879-8CD4-0D996E8B5AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D8D80A4-7F9B-4879-8CD4-0D996E8B5AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3788B8-838F-46E8-B534-728B63CB0C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3788B8-838F-46E8-B534-728B63CB0C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3788B8-838F-46E8-B534-728B63CB0C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3788B8-838F-46E8-B534-728B63CB0C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

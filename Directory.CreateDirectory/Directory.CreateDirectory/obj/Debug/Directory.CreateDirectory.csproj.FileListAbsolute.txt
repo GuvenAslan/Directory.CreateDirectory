@@ -4,3 +4,9 @@ D:\PROJELER\CodeProject\Directory.CreateDirectory\Directory.CreateDirectory\Dire
 D:\PROJELER\CodeProject\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.csprojResolveAssemblyReference.cache
 D:\PROJELER\CodeProject\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.exe
 D:\PROJELER\CodeProject\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.pdb
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\bin\Debug\Directory.CreateDirectory.exe.config
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\bin\Debug\Directory.CreateDirectory.exe
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\bin\Debug\Directory.CreateDirectory.pdb
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.csprojResolveAssemblyReference.cache
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.exe
+D:\Projeler\github\Directory.CreateDirectory\Directory.CreateDirectory\Directory.CreateDirectory\obj\Debug\Directory.CreateDirectory.pdb

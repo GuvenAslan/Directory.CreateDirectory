@@ -1,27 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Directory.CreateDirectory
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
+        {
+            CreateDirectory();
+            Console.ReadKey();
+        }
+        public static bool CreateDirectory()
         {
             string folderPath = @"c:\testFolder";
 
+            if (!System.IO.Directory.Exists(folderPath))
+                System.IO.Directory.CreateDirectory(folderPath);
+
             string subPath = System.IO.Path.Combine(folderPath, "subFolder");
 
-            System.IO.Directory.CreateDirectory(subPath);
+            if (!System.IO.Directory.Exists(subPath))
+                System.IO.Directory.CreateDirectory(subPath);
+
 
             string fileName = System.IO.Path.GetRandomFileName();
 
             subPath = System.IO.Path.Combine(subPath, fileName);
 
             if (!System.IO.File.Exists(subPath))
-            {
                 using (System.IO.FileStream fileStream = System.IO.File.Create(subPath))
                 {
                     for (byte i = 0; i < 100; i++)
@@ -29,7 +34,6 @@ namespace Directory.CreateDirectory
                         fileStream.WriteByte(i);
                     }
                 }
-            }
 
             try
             {
@@ -42,8 +46,9 @@ namespace Directory.CreateDirectory
             catch (System.IO.IOException e)
             {
                 Console.WriteLine(e.Message);
+                return false;
             }
-            Console.ReadKey();
+            return true;
         }
     }
 }
